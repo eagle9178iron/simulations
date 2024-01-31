@@ -1,0 +1,13 @@
+﻿Changes compared to version 0.2.1
+=================================
+
+Instances
+---------
+
+- Namespaces which are declared in schemaRef elements are taken into account when resolving names.
+- Instances are working with two elements of the same name from different imported taxonomies.
+
+Taxonomies
+----------
+
+- Prefix of namespaces in instance documents is now starting with ns_* to avoid letting them start with an invalid character (e.g. a number).
